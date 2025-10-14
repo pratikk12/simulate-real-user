@@ -44,8 +44,7 @@ Enter the folder path (e.g., C:\tools\chromedriver).
 
 Open a new terminal and run:
 
-bash
-Copy code
+
 chromedriver --version
 You should see the version printed.
 
@@ -58,9 +57,6 @@ Usage
 Prepare a file all_urls.txt with one URL per line.
 
 Run the script:
-
-bash
-Copy code
 python simulate_user.py
 Follow the prompts to switch VPN for each region.
 
