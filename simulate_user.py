@@ -16,10 +16,10 @@ from urllib.parse import urlparse
 # ---------- CONFIG ----------
 ALL_URLS_FILE = "all_urls.txt"
 LOG_FILE = "simulate_user_log.txt"
-CHROME_DRIVER_PATH = "chromedriver"  # if in PATH
+CHROME_DRIVER_PATH = "chromedriver"
 
 # Regions to simulate (order matters)
-REGIONS = ["india", "usa", "philippines"]
+REGIONS = ["usa"]
 
 PAGES_PER_SESSION = 30
 MIN_READ_SECONDS = 10
